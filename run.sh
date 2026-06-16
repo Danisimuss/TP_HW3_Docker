@@ -17,6 +17,6 @@ elif [ "$1" = "structure" ]; then
 elif [ "$1" = "clear_data" ]; then
     rm -f data/*.csv data/*.html
 elif [ "$1" = "inside_generator" ]; then
-    docker run -v $(pwd)/data:/data generator ls data
+    docker run -v $(pwd)/data:/data generator ls /data
 elif [ "$1" = "inside_reporter" ]; then
     docker run -v $(pwd)/data:/data reporter ls /data
