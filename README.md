@@ -1,2 +1,12 @@
 # TP_HW3_Docker
-Homework 3 for TP HSE
+## Homework 3. Docker
+# Как использовать программу:
+## 1. Клонируйте репозиторий
+### git clone [<ссылка на репозиторий>](https://github.com/Danisimuss/TP_HW3_Docker)
+## 2. Соберите образы командами ниже:
+### ./run.sh build_generator
+### ./run.sh build_reporter
+## 3. Запустите генератор и анализ данных командами ниже:
+### ./run.sh run_generator
+### ./run.sh run_reporter
+## 4. В папке data создадутся файлы data.csv и report.html. Для открытия html файла нажмите на него правой кнопкой мыши и нажмите "Скачивание..." и этот файл скачается вам на компьютер. Откройте его на компьютере и увидите его содержимое.
